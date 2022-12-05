@@ -207,7 +207,7 @@ GRANT  : Bir kullanıcıya yetki vermek için kullanılır.
 REVOKE : Bir kullanıcıya verilen yetkiyi geri almak için kullanılır.
 */
 
-Create Database sqlcalismalarim;
+Create Database sqlcalismalarim; --Databese olusturmamiza yarar.
 
 -- DDL - DATA DEFINITION LANG.
 --CREATE TABLO OLUSTURMA
@@ -239,20 +239,10 @@ INSERT INTO ogrenciler VALUES ('1234567','Hanzel','KARAAGAC','95.00',now());
 INSERT INTO ogrenciler VALUES ('1940190','Mila','KARAAGAC',85.00,'2022-12-04');
 select * from ogrenciler;
 
---BIR TABLOYA PARÇALI VERT EKLEMEK ‡STERSEK
+--BIR TABLOYA PARÇALI VERI EKLEMEK ‡STERSEK
 INSERT INTO ogrenciler (isim,soy_isim) VALUES ('Tomris','KARAAGAC');
 
 
-
+SELECT * FROM ogrenciler;
 
 drop table if exists ogrenciler; -- Tabloyu siler
-
-
-
-
-
-
-
-
-
-
